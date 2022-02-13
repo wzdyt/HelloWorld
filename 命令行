@@ -18,10 +18,7 @@ git remote add origin git@github.com:wzdyt/HelloWorld.git
 git init
 
 创建一个本地仓库的克隆版本
-git clone username@host:/path/to/repository
-
-
-
+git clone git@github.com:wzdyt/HelloWorld.git
 
 
 git add README.md  加入中间区
@@ -38,6 +35,7 @@ git checkout -b 分支名   创建分支
 git checkout 分支名  切换分支
 
 
-
 要合并其他分支到你的当前分支（例如 master），执行：
 git merge <其他分支名称>
+
+02132202
