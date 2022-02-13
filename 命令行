@@ -34,6 +34,8 @@ git checkout -b 分支名   创建分支
 
 git checkout 分支名  切换分支
 
+git push --set-upstream origin 分支名称 远程仓库没有该分支的情况下  该命令会push 并在远程仓库创建分支
+
 
 要合并其他分支到你的当前分支（例如 master），执行：
 git merge <其他分支名称>
