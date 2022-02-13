@@ -25,6 +25,7 @@ git clone username@host:/path/to/repository
 
 
 git add README.md  加入中间区
+git status 查看当前状态
 git commit -m "first commit" 加入本地git仓库
 git push 提交到github仓库
 
