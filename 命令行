@@ -39,8 +39,5 @@ git checkout 分支名  切换分支
 
 
 
-
-
-
 要合并其他分支到你的当前分支（例如 master），执行：
 git merge <其他分支名称>
