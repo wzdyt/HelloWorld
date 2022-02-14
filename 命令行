@@ -37,6 +37,12 @@ git checkout 分支名  切换分支
 git push --set-upstream origin 分支名称 远程仓库没有该分支的情况下  该命令会push 并在远程仓库创建分支
 
 
+git pull 命令用于从远程获取代码并合并本地的版本。
+git pull 其实就是 git fetch 和 git merge FETCH_HEAD 的简写。
+命令格式如下：
+git pull <远程主机名> <远程分支名>:<本地分支名>      当团队合作协作时，git pull可以保证本地和远程代码一致
+
+
 要合并其他分支到你的当前分支（例如 master），执行：
 git merge <其他分支名称>
 
